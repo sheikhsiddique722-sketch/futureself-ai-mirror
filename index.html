@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Projects — AI Developer Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- Animated background canvas -->
+<canvas id="bg-canvas"></canvas>
+
+<!-- Subtle cursor glow that follows mouse -->
+<div class="cursor-glow" id="cursor-glow"></div>
+
+<!-- =============================================
+     MAIN PROJECTS SECTION
+     ============================================= -->
+<section id="projects-section">
+
+  <!-- Section Header -->
+  <div class="section-header">
+    <div class="header-meta">
+      <div class="header-line"></div>
+      <span class="header-label">// selected_work.v2</span>
+    </div>
+    <h2 class="section-heading">
+      <span id="typed-heading"></span><span class="cursor-blink" id="type-cursor"></span>
+    </h2>
+    <p class="section-sub">
+      A curated collection of AI systems, web products, and design experiments — built for impact, engineered with intention.
+    </p>
+  </div>
+
+  <!-- Controls: Filter + Search -->
+  <div class="controls-bar">
+    <div class="filter-tabs" id="filter-tabs">
+      <button class="ftab active" data-filter="all">All</button>
+      <button class="ftab" data-filter="AI">AI</button>
+      <button class="ftab" data-filter="Web">Web</button>
+      <button class="ftab" data-filter="Design">Design</button>
+      <button class="ftab" data-filter="Tool">Tool</button>
+    </div>
+
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="text" id="search-input" placeholder="Search projects..."/>
+    </div>
+
+    <span class="results-count" id="results-count">
+      <em id="count-num">0</em> projects
+    </span>
+  </div>
+
+  <!-- Projects Grid -->
+  <div id="projects-grid">
+    <!-- Cards injected by JS -->
+    <div id="empty-state">
+      <div class="empty-icon">◈</div>
+      <p class="empty-title">No matches found</p>
+      <p class="empty-sub">Try a different keyword or filter</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- =============================================
+     MODAL
+     ============================================= -->
+<div id="modal-overlay" role="dialog" aria-modal="true" aria-label="Project Details">
+  <div id="modal-box">
+    <button class="modal-close" id="modal-close-btn" title="Close">✕</button>
+    <div class="modal-strip" id="modal-strip"></div>
+    <div class="modal-img-wrap" id="modal-img-wrap"></div>
+
+    <div class="modal-content">
+      <div class="modal-header-row">
+        <span class="card-tag" id="modal-tag"></span>
+      </div>
+      <h3 class="modal-title" id="modal-title"></h3>
+      <p class="modal-description" id="modal-desc"></p>
+
+      <p class="modal-section-label">Key Features</p>
+      <ul class="features-list" id="modal-features"></ul>
+
+      <p class="modal-section-label">Tech Stack</p>
+      <div class="modal-tech" id="modal-tech"></div>
+
+      <div class="modal-actions" id="modal-actions"></div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
