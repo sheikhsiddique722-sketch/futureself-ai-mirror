@@ -2,7 +2,7 @@ FutureSelf AI Mirror
 
 FutureSelf AI Mirror is a conceptual AI-driven self-reflection experience focused on identity, aspiration, and personal storytelling.
 The platform combines layered prompt engineering, generative imagery workflows, and emotionally resonant narrative systems to create an intimate encounter with a user’s imagined future self.
-
+ 
 Features  
 Multi-stage reflective prompt pipeline
 Context-aware AI storytelling system
