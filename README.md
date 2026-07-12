@@ -6,7 +6,7 @@ The project explores how thoughtful UI/UX design can create an engaging experien
 
 ---
  
-## 🌐 Live Demo
+## 🌐 Live Demo 
 
 **Website:**
 https://sheikhsiddique722-sketch.github.io/futureself-ai-mirror/
