@@ -1,5 +1,5 @@
 # 🪞 FutureSelf AI Mirror
-
+ 
 A modern AI-powered self-reflection platform built as a frontend project. **FutureSelf AI Mirror** is designed to help users visualize their future potential through an elegant, immersive, and intuitive interface inspired by next-generation AI wellness and personal growth applications.
 
 The project explores how thoughtful UI/UX design can create an engaging experience for self-improvement, goal visualization, and future planning while showcasing modern frontend development practices. AI-powered future-self platforms often use visualization and personalized guidance to motivate long-term habit formation, which inspired this concept.
